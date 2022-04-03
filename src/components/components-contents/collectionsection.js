@@ -14,6 +14,17 @@ class CollectionSection extends React.Component {
                         </p>
                         <p className="text-white text-xl">The SneakPunks can used for P2E.</p>
                     </div>
+                </div>
+                    <List
+                     grid={{
+                         gutter: 16,
+                         xs: 1,
+                         sm: 2,
+                         md: 4,
+                         lg: 4,
+                         xl: 6,
+                         xxl: 3,                    
+                    }}>
                     <div className="w-full grid grid-rows-2 grid-cols-3 grid-flow-row gap-5">
                         {CollectionData.map((item, i) => {
                             return (
